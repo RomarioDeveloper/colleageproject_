@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Колледжи Павлодара</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="images/Logo_Pavlodar_region.png" alt="Логотип">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="colleges.html">Колледжи</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+            <li><a href="profile.html">Личный кабинет</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>Список колледжей Павлодара</h1>
+    <div class="college-list">
+        <div class="college-item" onclick="openModal('college2')">
+            <img src="images/college2.png" alt="Павлодарский колледж информационных технологий">
+            <h2>Павлодарский колледж информационных технологий</h2>
+            <p>ул. Лермонтова, 93, тел: 8 (7182) 55-58-08</p>
+            <p>Рейтинг: 4.7</p>
+            <p>Отличники: 140</p>
+        </div>
+        <div class="college-item" onclick="openModal('college3')">
+            <img src="images/img.png" alt="Павлодарский машиностроительный колледж">
+            <h2>Павлодарский машиностроительный колледж</h2>
+            <p>ул. Мира, 43А, тел: +7 (7182) 55-45-72</p>
+            <p>Рейтинг: 4.3</p>
+            <p>Отличники: 110</p>
+        </div>
+        <div class="college-item" onclick="openModal('college4')">
+            <img src="images/img_1.png" alt="Павлодарский инновационный многопрофильный колледж">
+            <h2>Павлодарский инновационный многопрофильный колледж</h2>
+            <p>ул. Камзина, 37/1, тел: 8 7182 61-76-84</p>
+            <p>Рейтинг: 4.6</p>
+            <p>Отличники: 130</p>
+        </div>
+        <div class="college-item" onclick="openModal('college5')">
+            <img src="images/img_2.png" alt="Колледж Павлодарского государственного университета им. С. Торайгырова">
+            <h2>Колледж Павлодарского государственного университета им. С. Торайгырова</h2>
+            <p>ул. Толстого, 99, тел: +7 (7182) 67-50-01</p>
+            <p>Рейтинг: 4.8</p>
+            <p>Отличники: 150</p>
+        </div>
+        <div class="college-item" onclick="openModal('college5')">
+            <img src="images/img_2.png" alt="Колледж Павлодарского государственного университета им. С. Торайгырова">
+            <h2>Колледж Павлодарского государственного университета им. С. Торайгырова</h2>
+            <p>ул. Толстого, 99, тел: +7 (7182) 67-50-01</p>
+            <p>Рейтинг: 4.8</p>
+            <p>Отличники: 150</p>
+        </div>
+        <div class="college-item" onclick="openModal('college5')">
+            <img src="images/img_2.png" alt="Колледж Павлодарского государственного университета им. С. Торайгырова">
+            <h2>Колледж Павлодарского государственного университета им. С. Торайгырова</h2>
+            <p>ул. Толстого, 99, тел: +7 (7182) 67-50-01</p>
+            <p>Рейтинг: 4.8</p>
+            <p>Отличники: 150</p>
+        </div>
+<!--        <div class="college-item" onclick="openModal('college5')">-->
+<!--            <img src="images/img_2.png" alt="Колледж Павлодарского государственного университета им. С. Торайгырова">-->
+<!--            <h2>Колледж Павлодарского государственного университета им. С. Торайгырова</h2>-->
+<!--            <p>ул. Толстого, 99, тел: +7 (7182) 67-50-01</p>-->
+<!--            <p>Рейтинг: 4.8</p>-->
+<!--            <p>Отличники: 150</p>-->
+<!--        </div>-->
+    </div>
+</main>
+<footer>
+    <p>&copy; 2024 Колледжи Павлодара</p>
+</footer>
+
+<!-- Модальные окна для колледжей -->
+<div id="college2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('college2')">&times;</span>
+        <h2>Павлодарский колледж информационных технологий</h2>
+        <div class="slider">
+            <img src="images/colleage2-3.png" alt="Image 1" class="active">
+            <img src="images/college2.png" alt="Image 2">
+            <img src="images/colleage2-1.png" alt="Image 3">
+        </div>
+        <p>Наши Специальности
+            specialites 07130700 - Техническое обслуживание, ремонт и эксплуатация электромеханического оборудования (по видам и отраслям)
+            Подробнее
+            specialites 04130100 - Менеджмент (по отраслям и областям применения)
+            Подробнее
+            specialites 06120200 – Системы информационной безопасности
+            Подробнее
+            specialites 06130100 - Программное обеспечение (по видам)</p>
+    </div>
+</div>
+<div id="college3" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('college3')">&times;</span>
+        <h2>Павлодарский машиностроительный колледж</h2>
+        <div class="slider">
+            <img src="images/colleage3.png" alt="Image 1" class="active">
+            <img src="images/college3-2.jpg" alt="Image 2">
+            <img src="images/college3-3.jpg" alt="Image 3">
+        </div>
+        <p>одготовка кадров ведется по специальностям
+
+
+
+            07150100 «Технология машиностроения (по видам)»
+
+            Квалификация: 4S07150106  техник – механик, срок обучения: 9 кл. - 3 года 10 месяцев (бюджет); 11 кл. – 2 года 10 месяцев;
+
+
+
+            07151200 «Литейное производство»
+
+            Квалификация: 4S07151202  техник  – технолог, срок обучения: 9 кл. - 3 года 10 месяцев (бюджет);
+
+
+
+            07151100 «Эксплуатация  и техническое обслуживание машин и оборудования (по отраслям промышленности)»
+
+            Квалификация: 4S07151102  техник  – механик,  срок обучения: 9 кл. - 3 года 10 месяцев (бюджет);
+
+
+
+            07130700 « Техническое обслуживание, ремонт и эксплуатация электромеханического оборудования  (по видам и  отраслям)»
+
+            Квалификация: 4S07130704  техник  – электромеханик, срок обучения: 9 кл. - 3 года 10 месяцев (бюджет) на государственном языке, 11 кл. заочно – 2 года 10 месяцев;
+
+
+
+            07161300 «Техническое обслуживание, ремонт и эксплуатация автомобильного транспорта»
+
+            Квалификация: 4S07161304  техник  – механик, срок обучения: 11 кл. заочно - 2 года 10  месяцев;
+
+
+
+            04110100  «Учёт и аудит»
+
+            Квалификация: 4S04110102  бухгалтер - экономист, срок обучения  11 кл. –  заочно - 1 год  10 месяцев;</p>
+    </div>
+</div>
+<div id="college4" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('college4')">&times;</span>
+        <h2>Павлодарский инновационный многопрофильный колледж</h2>
+        <div class="slider">
+            <img src="images/img_1.png" alt="Image 1" class="active">
+            <img src="images/college4-2.jpg" alt="Image 2">
+            <img src="images/college4-3.jpg" alt="Image 3">
+        </div>
+        <p>01140100 «Педагогика и методика начального образования»
+            01120100 «Дошкольное воспитание и воспитание»
+            01140600 «Педагогика и методика преподавания языка и литературы в основном среднем образовании (учитель казахского языка и литературы)»
+            01140600 «Педагогика и методика преподавания языка и литературы в основном среднем образовании (учитель русского языка и литературы)»
+            04130100 «Менеджмент» (по отраслям и регионам)
+            04210100 «Правоведение»
+            04120100 «Банковское и страховое дело»</p>
+    </div>
+</div>
+<div id="college5" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('college5')">&times;</span>
+        <h2>Колледж Павлодарского государственного университета им. С. Торайгырова</h2>
+        <div class="slider">
+            <img src="images/img_2.png" alt="Image 1" class="active">
+            <img src="images/college5-2.jpg" alt="Image 2">
+            <img src="images/college5-3.jpg" alt="Image 3">
+        </div>
+        <p>Описание колледжа...</p>
+    </div>
+</div>
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
